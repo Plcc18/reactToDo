@@ -1,8 +1,12 @@
+import AddTask from "./components/AddTask";
+import Tasks from "./components/Tasks";
+
 function App() {
-  const message = "Olá Mundo"
   return (
     <div>
-      <h1>{message}</h1>
+      <h1 className="text-red-500">Gerenciador de Tarefas</h1>
+      <Tasks/>
+      <AddTask/>
     </div>
   );
 }
